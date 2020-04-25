@@ -1,11 +1,14 @@
 # badwords
-Javascript handler for badwords. Work in browser & node
+Javascript handler for badwords. Work in browser & node.
+Open for contribution. You can text me on discord Kawacrepe#8492
 
 ## Installation
 
+``` npm i @kawacrepe/badwords ```
+
 ## Testing
 
-``` npm run test ```
+``` npm test ```
 
 ## Usage
 
