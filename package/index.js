@@ -1,11 +1,10 @@
 const en = require('./langs/en');
 const fr = require('./langs/fr');
-
 class Filter {
     constructor(opt = {}) {
         Object.assign(this, {
             splitRegex: opt.splitRegex || /\b/,
-            list: opt.list || en,
+            list: opt.list || en.concat(fr),
             placeHolder: opt.placeHolder || '*',
             replaceRegex: opt.replaceRegex || /\w/g
         })

@@ -1,15 +1,14 @@
 {
   "name": "badwords",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Blazing fast javascript badwords filter",
   "main": "./package/index.js",
   "directories": {
     "test": "test"
   },
-  "dependencies": {
+  "devDependencies": {
     "jest": "^25.4.0"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "jest"
   },
