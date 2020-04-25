@@ -1,5 +1,5 @@
 {
-  "name": "badwords",
+  "name": "@kawacrepe/badwords",
   "version": "0.0.0",
   "description": "Blazing fast javascript badwords filter",
   "main": "./package/index.js",
