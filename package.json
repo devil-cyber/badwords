@@ -1,0 +1,31 @@
+{
+  "name": "badwords",
+  "version": "1.0.0",
+  "description": "Blazing fast javascript badwords filter",
+  "main": "./package/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "jest": "^25.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kawacrepe/badwords.git"
+  },
+  "keywords": [
+    "badwords",
+    "nodejs",
+    "javascript"
+  ],
+  "author": "Vincent Dhennin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kawacrepe/badwords/issues"
+  },
+  "homepage": "https://github.com/Kawacrepe/badwords#readme"
+}
