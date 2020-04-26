@@ -21,3 +21,8 @@ test('Placeholder changed', () => {
     const filter = new Filter({placeHolder: 'x'});
     expect(filter.clean('asshole')).toBe('xxxxxxx');
 })
+
+test('Custom list + different placeholder', () => {
+    const filter = new Filter({placeHolder: 'x', list: ['test', 'github']});
+    expect(filter.clean('Github is really helpfull, asshole')).toBe('xxxxxx is really helpfull, asshole');
+});
